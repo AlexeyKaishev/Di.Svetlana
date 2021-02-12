@@ -1404,6 +1404,12 @@ footer {
 .breadcrumbs {
 	margin-left: 25px;
 }
+
+@media (max-width: 767px) {
+	.breadcrumbs {
+		display: none;
+	}
+}
 .breadcrumbs span {
 	color: red;
 }
