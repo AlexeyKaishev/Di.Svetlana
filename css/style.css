@@ -1398,8 +1398,10 @@ footer {
 
 
 /* ПЕРВАЯ СТРАНИЦА БУКЕТЫ ИЗ РОЗ */
+@media (min-width: 768px){
 .page {
 	padding-top: 20px;
+	 }
 	 }
 .breadcrumbs {
 	margin-left: 25px;
