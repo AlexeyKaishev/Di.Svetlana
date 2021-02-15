@@ -21,6 +21,7 @@ body	{
 	overflow-x: hidden;
 	overflow-y: scroll;
 	height: 100%;
+	box-sizing: border-box; /*Добавил для айфон 5, чтобы слайдер не ел место*/
 }
 
 a {
@@ -438,6 +439,7 @@ header{
 	}
 	.mobile__menu_content ul li {
 		text-align: right;
+		line-height: 8px;
 	}
 
 	.mobile__menu_container ul li a.mobile__menu_menu-first, .mobile__menu_container ul li a.mobile__menu_menu-second {
@@ -447,7 +449,7 @@ header{
 
 .mobile__menu_container ul li a.back{
 	background: #fff url(../icons/arrow_right.svg) right 0px no-repeat;
-	padding-right: 15px; 
+	margin-right: 15px; 
 }
 	.burger {
 		position: absolute;
@@ -939,6 +941,9 @@ div.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
 @media (max-width:445px) {
 	.slider__item-picture {
 		height: 250px;
+	}
+	.slider__item {
+		margin: 5px 0px;
 	}
 }
 
