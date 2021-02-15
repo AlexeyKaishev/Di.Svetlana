@@ -342,7 +342,7 @@ header{
 	z-index: 10201;
 	transition: all 200ms;
 	position: fixed;
-    top: 69px;
+    top: 50px;
     left: 0;
     height: 100%;
 }
