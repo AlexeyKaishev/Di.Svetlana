@@ -1458,6 +1458,7 @@ footer {
 @media (max-width: 425px) {
 	.page-catalogue>.slider__item {
 	max-width: 180px;
+	flex: 0 0 50%;
 
 }
 }
